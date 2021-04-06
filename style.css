@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+  header .slogan{
+    display:none;
+  }
+}
+
+header .row{
+  min-height: 70vh;
+  background-image: url(./img/banniere_ppcm_modif.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
