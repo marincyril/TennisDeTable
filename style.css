@@ -1,3 +1,6 @@
+/* Déclaration de mes 2 Bannièere
+La bannière2 ne s'affichage pas en mode normal elle s'affice en mode réduit
+lorsque l'on passe sur un peit écran grâce au @media Querie*/
 .banner2{
   display: none;
   width: 100%;
@@ -15,6 +18,7 @@
     display: block;
   }
 }
+/* Déclaration Style de mes titres*/
 h1{
   text-align: center;
   color: blue;
@@ -23,22 +27,8 @@ h5{
   text-decoration: underline red;
 }
 
+/* Pour que mes photos soient identique*/
 .photo{
   max-width: 100%;
   height: auto;
-}
-
-#articles .media{
-  padding: 0,5rem 1rem;
-  cursor: pointer;
-  border-radius: 3px;
-  transition: all .3s ease-in-out;
-}
-
-#articles .media span{
-  color:red;
-  font-size: 3rem;
-}
-#articles .media:hover{
-  background-color:rgba(128, 128, 128, 0.5);
 }
