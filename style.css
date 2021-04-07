@@ -1,13 +1,18 @@
-@media (max-width: 768px){
-  header .slogan{
-    display:none;
+@media only screen and (max-width: 768px)
+{ 
+  .banner1{
+    display: none;
+  }
+
+  .banner2{
+    display: block;
   }
 }
 
-header .row{
-  min-height: 70vh;
-  background-image: url(./img/banniere_ppcm_modif.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+.banner2{
+  display: none;
+  width: 100%;
+}
+.banner1{
+  width: 100%;
 }
