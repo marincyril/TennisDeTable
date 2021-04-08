@@ -8,6 +8,11 @@ lorsque l'on passe sur un peit écran grâce au @media Querie*/
 .banner1{
   width: 100%;
 }
+.banner3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media only screen and (max-width: 768px)
 { 
   .banner1{
@@ -16,6 +21,9 @@ lorsque l'on passe sur un peit écran grâce au @media Querie*/
 
   .banner2{
     display: block;
+  }
+  .banner3{
+    display: none;
   }
 }
 /* Déclaration Style de mes titres*/
@@ -27,8 +35,26 @@ h5{
   text-decoration: underline red;
 }
 
-/* Pour que mes photos soient identique*/
+/* Pour que mes photos soient identique: page accueil*/
 .photo{
+  padding: 1rem;
   max-width: 100%;
   height: auto;
 }
+
+/*Zoom sur mes photos: page evenement*/
+.zoom p {
+  display:block;
+  padding-top: 1rem;
+  text-align:center;
+  }
+.zoom img {
+  width:200px;
+  height:267px;
+  transition: all 1s ease;
+  }
+  .zoom img:hover {
+  width:auto;
+  height:auto;
+  transform:scale(1);
+  }
