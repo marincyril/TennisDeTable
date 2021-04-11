@@ -1,6 +1,7 @@
 /* Déclaration de mes 2 Bannièere
 La bannière2 ne s'affichage pas en mode normal elle s'affice en mode réduit
 lorsque l'on passe sur un peit écran grâce au @media Querie*/
+
 .banner2{
   display: none;
   width: 100%;
@@ -28,10 +29,12 @@ lorsque l'on passe sur un peit écran grâce au @media Querie*/
 }
 /* Déclaration Style de mes titres*/
 h1{
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-align: center;
   color: blue;
 }
-h5{
+h2, h5{
   text-decoration: underline red;
 }
 
@@ -47,14 +50,34 @@ h5{
   display:block;
   padding-top: 1rem;
   text-align:center;
-  }
+}
 .zoom img {
   width:200px;
   height:267px;
   transition: all 1s ease;
-  }
+}
   .zoom img:hover {
   width:auto;
   height:auto;
   transform:scale(1);
-  }
+}
+/* Pour la page contact */
+video{
+  width:100%;
+  height:auto;
+}
+section .description{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: justify;
+  color:blue;
+}
+
+/*Pied de pages*/
+footer{
+  text-align:center;
+  color: white;
+  background-color:#23242a ;
+}
